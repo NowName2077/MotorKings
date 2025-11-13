@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MotorKings_DataBase.Domain.Aggregates")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72bbad82e4e9420dcfdabf08f4ee6f93668ed0a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85c0ac040f1c654e3417da7add835383af5390f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MotorKings_DataBase.Domain.Aggregates")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MotorKings_DataBase.Domain.Aggregates")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
