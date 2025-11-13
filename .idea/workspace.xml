@@ -92,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763065674748</updated>
       <workItem from="1763065675903" duration="2426000" />
-      <workItem from="1763069910243" duration="628000" />
+      <workItem from="1763069910243" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="Create DataBase">
       <option name="closed" value="true" />
@@ -102,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763066416150</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002">
+      <option name="closed" value="true" />
+      <created>1763070600009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763070600009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

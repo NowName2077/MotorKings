@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MotorKings_Interface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7dba61a9725b67465b58ef0347691ef5ed2881a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d69a49e1e5aa154a85d3e84ad6971b289690d20")]
 [assembly: System.Reflection.AssemblyProductAttribute("MotorKings_Interface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MotorKings_Interface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

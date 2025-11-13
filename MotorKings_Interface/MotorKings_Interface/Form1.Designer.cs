@@ -24,16 +24,47 @@ partial class Form1
     #region Windows Form Designer generated code
 
     /// <summary>
-    ///  Required method for Designer support - do not modify
-    ///  the contents of this method with the code editor.
+    /// Required method for Designer support - do not modify
+    /// the contents of this method with the code editor.
     /// </summary>
     private void InitializeComponent()
     {
-        this.components = new System.ComponentModel.Container();
-        this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "Form1";
+        listBox1 = new System.Windows.Forms.ListBox();
+        button1 = new System.Windows.Forms.Button();
+        SuspendLayout();
+        // 
+        // listBox1
+        // 
+        listBox1.FormattingEnabled = true;
+        listBox1.ItemHeight = 15;
+        listBox1.Location = new System.Drawing.Point(11, 12);
+        listBox1.Name = "listBox1";
+        listBox1.Size = new System.Drawing.Size(141, 349);
+        listBox1.TabIndex = 0;
+        // 
+        // button1
+        // 
+        button1.Location = new System.Drawing.Point(158, 12);
+        button1.Name = "button1";
+        button1.Size = new System.Drawing.Size(115, 45);
+        button1.TabIndex = 1;
+        button1.Text = "button1";
+        button1.UseVisualStyleBackColor = true;
+        button1.Click += button1_Click_1;
+        // 
+        // Form1
+        // 
+        AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+        AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+        ClientSize = new System.Drawing.Size(800, 450);
+        Controls.Add(button1);
+        Controls.Add(listBox1);
+        Text = "Form1";
+        ResumeLayout(false);
     }
+
+    private System.Windows.Forms.ListBox listBox1;
+    private System.Windows.Forms.Button button1;
 
     #endregion
 }

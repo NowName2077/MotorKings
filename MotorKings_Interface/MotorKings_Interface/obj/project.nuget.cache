@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ULNJ4fqtmPA=",
+  "success": true,
+  "projectFilePath": "D:\\git\\MotorKings\\MotorKings_Interface\\MotorKings_Interface\\MotorKings_Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NowName\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
