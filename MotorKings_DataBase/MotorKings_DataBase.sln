@@ -1,8 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9D587647-12DC-484F-8175-BEFE8E7067D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8E00BEFA-F89E-4056-A78F-F588CA716608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BE51DB19-C68B-4A06-B44A-9BBB5CCA23F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0C2CEBD4-41B8-427A-8F78-104B29C304CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorKings_DataBase.Domain.Aggregates", "Domain\MotorKings_DataBase.Domain.Aggregates\MotorKings_DataBase.Domain.Aggregates.csproj", "{E82E74C1-B9E8-40EB-9571-7B83FCD9E8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorKings_DataBase.Data", "Data\MotorKings_DataBase.Data\MotorKings_DataBase.Data.csproj", "{1DCD83EF-2B37-4B07-AF15-F4655D1881D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorKings_DataBase.Infrastructure", "Infrastructure\MotorKings_DataBase.Infrastructure\MotorKings_DataBase.Infrastructure.csproj", "{D2A6BC3F-5FC2-4467-87EC-5A1600D72248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorKings_DataBase.Models", "Models\MotorKings_DataBase.Models\MotorKings_DataBase.Models.csproj", "{C4B5E08C-63A8-4853-9062-7A7AF5A1B46B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E82E74C1-B9E8-40EB-9571-7B83FCD9E8C3} = {BE51DB19-C68B-4A06-B44A-9BBB5CCA23F8}
+		{1DCD83EF-2B37-4B07-AF15-F4655D1881D0} = {8E00BEFA-F89E-4056-A78F-F588CA716608}
+		{D2A6BC3F-5FC2-4467-87EC-5A1600D72248} = {9D587647-12DC-484F-8175-BEFE8E7067D2}
+		{C4B5E08C-63A8-4853-9062-7A7AF5A1B46B} = {0C2CEBD4-41B8-427A-8F78-104B29C304CE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82E74C1-B9E8-40EB-9571-7B83FCD9E8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82E74C1-B9E8-40EB-9571-7B83FCD9E8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82E74C1-B9E8-40EB-9571-7B83FCD9E8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82E74C1-B9E8-40EB-9571-7B83FCD9E8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCD83EF-2B37-4B07-AF15-F4655D1881D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCD83EF-2B37-4B07-AF15-F4655D1881D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCD83EF-2B37-4B07-AF15-F4655D1881D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCD83EF-2B37-4B07-AF15-F4655D1881D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A6BC3F-5FC2-4467-87EC-5A1600D72248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A6BC3F-5FC2-4467-87EC-5A1600D72248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A6BC3F-5FC2-4467-87EC-5A1600D72248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A6BC3F-5FC2-4467-87EC-5A1600D72248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B5E08C-63A8-4853-9062-7A7AF5A1B46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B5E08C-63A8-4853-9062-7A7AF5A1B46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B5E08C-63A8-4853-9062-7A7AF5A1B46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B5E08C-63A8-4853-9062-7A7AF5A1B46B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
